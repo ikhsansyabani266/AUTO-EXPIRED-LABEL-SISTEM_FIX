@@ -6,3 +6,19 @@ supabase-go.exe
 .temp/
 supabase/.temp/
 supabase/migrations/
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local development and build output
+*.log
+coverage/
+dist/
+build/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.vscode/launch.json
